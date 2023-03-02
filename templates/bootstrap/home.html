@@ -1,0 +1,14 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+  <div class="col-12 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Welcome, {{ current_user.email }}!</h2>
+        <p>You are now logged in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
