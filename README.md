@@ -33,6 +33,12 @@ Como base de dados para os usuários está sendo utilizado o MongoDB e a bibliot
   docker-compose build
   docker-compose up
 ```
+
+**Acesse a porta:***
+```bash
+  http://localhost:5000
+```
+
 ## Authors
 
 - [@João Victor F. Braga](https://www.linkedin.com/in/d3moon)
