@@ -6,7 +6,7 @@ services:
       context: .
     environment:
       MONGO_DBNAME: flask-core
-      MONGO_URI: mongodb://mongo:27017/flask-core
+      MONGO_URI: mongodb://mongo:27017/
       SECRET_KEY: your-secret-key
       SECURITY_PASSWORD_SALT: your-password-salt
     ports:

@@ -8,7 +8,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 MONGODB_SETTINGS = {
     'db': os.getenv('MONGO_DBNAME'),
-    'host': 'mongo',
+    'host': os.getenv('MONGO_URI'),
     'port': 27017
 }
 
